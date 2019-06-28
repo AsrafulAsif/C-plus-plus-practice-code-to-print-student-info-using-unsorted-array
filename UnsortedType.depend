@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1561743637 source:e:\c++e\unsortedtype\main.cpp
+	<iostream>
+	"UnsortedType.cpp"
+	"StudentInfo.h"
+
+1561743462 e:\c++e\unsortedtype\unsortedtype.cpp
+	"UnsortedType.h"
+
+1561489738 e:\c++e\unsortedtype\unsortedtype.h
+
+1561489738 e:\c++e\unsortedtype\studentinfo.h
+	<string>
+
+1561743765 source:e:\c++e\unsortedtype\studentinfo.cpp
+	"StudentInfo.h"
+	<string>
+	<iostream>
+
+1561743462 source:e:\c++e\unsortedtype\unsortedtype.cpp
+	"UnsortedType.h"
+
