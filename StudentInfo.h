@@ -10,7 +10,6 @@ class StudentInfo
         StudentInfo(int,string,double);
         void Print();
         bool operator!=(StudentInfo);
-        bool operator==(StudentInfo);
         void setId(int);
 
     protected:
