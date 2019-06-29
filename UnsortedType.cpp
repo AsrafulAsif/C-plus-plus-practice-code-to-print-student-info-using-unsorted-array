@@ -1,5 +1,6 @@
 #include "UnsortedType.h"
 
+
 template <class ItemType>
 UnsortedType<ItemType>::UnsortedType()
 {
@@ -40,7 +41,7 @@ void UnsortedType<ItemType>::RetrieveItem(ItemType&item, bool &found)
         found = false;
             while (moreToSearch && !found)
                 {
-                    if(item == info[location])
+                    if(item!= info[location])
                     {
                     found = true;
                     item = info[location];
