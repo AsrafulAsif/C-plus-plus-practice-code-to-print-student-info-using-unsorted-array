@@ -41,7 +41,7 @@ void UnsortedType<ItemType>::RetrieveItem(ItemType&item, bool &found)
         found = false;
             while (moreToSearch && !found)
                 {
-                    if(item!= info[location])
+                    if(item== info[location])
                     {
                     found = true;
                     item = info[location];
@@ -63,7 +63,7 @@ template <class ItemType>
 void UnsortedType<ItemType>::DeleteItem(ItemType item)
 {
     int location = 0;
-    while (item != info[location])
+    while (item == info[location])
     location++;
     info[location] = info[length - 1];
     length--;
