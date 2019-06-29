@@ -43,4 +43,20 @@ int main()
         cout<<endl;
     }
 
+
+    StudentInfo s7;
+    s7.setId(13569);
+    bool found;
+    myList.RetrieveItem(s7,found);
+    if(found==true)
+    {
+        cout<<endl<<"Student is found!!"<<endl<<"And the Student is:"<<endl;
+        s7.Print();
+    }
+    else
+    {
+        cout<<endl<<"Student is not found!!";
+    }
+
+
 }
