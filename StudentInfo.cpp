@@ -23,7 +23,7 @@ void StudentInfo::Print()
 {
     cout<<"Name:"<<this->name<<endl<<"ID:"<<this->id<<endl<<"CGPA:"<<this->cg<<endl;
 }
-bool StudentInfo::operator!=(StudentInfo s)
+bool StudentInfo::operator==(StudentInfo s)
 {
     return(this->id!=s.id);
 }
